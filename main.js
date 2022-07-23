@@ -75,7 +75,7 @@ player.on("queueEnd", (queue) => {
 });
 
 if (client.config.TOKEN) {
-    client.login(process.env.BOT_TOKEN).catch((e) => {
+    client.login(client.config.TOKEN).catch((e) => {
         console.log(
             "The Bot Token You Entered Into Your Project Is Incorrect Or Your Bot's INTENTS Are OFF!"
         );
