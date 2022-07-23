@@ -1,5 +1,5 @@
 module.exports = {
-    TOKEN: "OTM5NTA3NTM4NjA3NjI4MzM4.Yf52lA.HDmm2oYhWtMa8uqLR8qC_JJOulc",
+    TOKEN: process.env.TOKEN,
     px: "::",
     playing: "❤️",
 
